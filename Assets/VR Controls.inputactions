@@ -1,0 +1,34 @@
+{
+    "name": "VR Controls",
+    "maps": [
+        {
+            "name": "VR action map",
+            "id": "44733947-d08c-472b-8534-3d4560020e4b",
+            "actions": [
+                {
+                    "name": "Reset Pins",
+                    "type": "Button",
+                    "id": "f316912e-767a-4b56-863b-c532a1ac0217",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "98a8bedb-ea99-4e5a-ae06-186b62b5dd79",
+                    "path": "<XRController>{RightHand}/touchpadClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Pins",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
